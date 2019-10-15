@@ -1,0 +1,15 @@
+server:
+  port: 8001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+  instance:
+    prefer-ip-address: true
+logging:
+  level:
+    club.doanything.trendfinder.admin.dao: debug
+spring:
+  application:
+    name: TRENDFINDER-PROVIDER-ADMIN
+#info.head
